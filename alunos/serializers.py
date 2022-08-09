@@ -23,3 +23,13 @@ class NotaSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.Nota
         fields = '__all__'
+
+class FaltaSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = models.Falta
+        fields = '__all__'
+
+class SemestreSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = models.Semestre
+        fields = '__all__'
